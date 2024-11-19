@@ -1,0 +1,12 @@
+//Looping
+//for
+//	for (<initial_value>;<condition>;<updation>){
+//		<statememts>
+//	}
+//	
+//	for(int i = 1; i<=10; i++){
+//		printf("Ganesh is sooo cute!");
+//	}
+//
+//while
+//do..while

@@ -1,0 +1,64 @@
+Control Statements
+	1. Sequential control structure
+	2. Selective control structure
+		if
+			1. Simple if
+				if ( <condition>){
+					<statements_to_be_executed>
+				}
+			2. If..else
+				if ( <condition>){
+					//if the condition is true
+					<statements_to_be_executed>
+				}
+				else{
+					//if the condition is false
+					<statements_to_be_executed>
+				}
+			3. Nested if
+				if (<condition>){
+					if (<condition>){
+					//if the condition is true
+					<statements_to_be_executed>
+					}
+					else{
+					//if the condition is false
+					<statements_to_be_executed>
+					}
+				}
+				else{
+					//if the condition is false
+					<statements_to_be_executed>
+					}					 
+				}
+			4. Else if ladder
+				if (<condition1>){
+					<statements_to_be_executed>
+				}
+				else if (<condition2>){
+					<statements_to_be_executed>
+				}
+				else if (<condition3>){
+					<statements_to_be_executed>
+				}
+				else{
+					<statements_to_be_executed>
+				}
+				
+
+		switch -- Multiple branching statement
+			switch(<expression>){
+				case <value1>:
+					<statements>; break;
+				case <value2>:
+					<statements>;break;
+				...
+				...
+				case <valueN>:
+					<statements>;break;
+				default:
+					<statements>;
+			}
+			
+			
+	3. Iterative control structure (looping)

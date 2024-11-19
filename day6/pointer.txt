@@ -1,0 +1,16 @@
+//static memory
+int arr[5];
+
+//Dynamic memory allocation
+int *arr;
+
+arr = malloc(20) ; // int arr[5]
+//free(arr))
+arr = realloc(arr, 100); // int arr[25]
+
+//stdlib.h
+//
+//malloc()
+//calloc()
+//realloc()
+//free()

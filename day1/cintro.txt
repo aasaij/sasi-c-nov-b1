@@ -1,0 +1,246 @@
+
+ABCDEFabc
+A --> 65 --> binary
+ASCII  --> character encoding format -->SUPPORTS ENGLISH ALPHABETS
+UNICODE --> character encoding format --> supports most of the languages alphabets
+1/2
+½ 
+☺♥♦♣♠
+
+♥  / 09
+
+
+65 --> 90 ==> A --> Z
+97 --> 122 ==> a --> z
+
+48 to 57 ==> 0 to 9
+
+32 ==> Space bar
+27 ==> ESC key
+
+10, "Bhavya", -12, 9.9 
+
+Constants
+	1. Numeric
+		1. Integer
+			Number without decimal value
+				10, -12
+
+			4 ways
+				123  --> decimal
+				0123 --> Octal
+				0x123 --> Hexadecimal
+				0b10100 --> Binary
+
+		2. Real
+			Number with decimal values
+				9.9 , 0.7, -1.5
+
+	2. Non-Numeric
+		'F'
+		"Female"		
+Variable
+		name = "Bhavya"
+		gender = 'F'
+		AGE = 55
+		CGPA= 9.9
+Rules to define an identifier
+1. can contain alphabets (upper, lower), digits (0-9) and underscore(_)
+2. Should not start digit
+3. Should not be keyword
+4. Case sensitive
+5. Length may be anything
+
+Operators
+1. Arithmetic
+	+, -, *, /, %
+
+2. Relational 
+	>, >=, < , <= ,==, !=
+3. Logical
+	&&, || , !
+4. Increment/Decrement
+	++/--
+5. Ternary or conditional 
+	?:
+
+	Syntax:
+
+	<condition>?<true_statement>:<false_statement>
+
+	x, y
+
+	max = x > y ? x : y;
+6. Bitwise 
+	& --> AND
+	| --> OR
+	~ --> NOT, Negation, 1's Complement
+	^ --> XOR
+	>>   Right shift
+	<<   Left shift
+
+	x = 7, y = 5
+
+	z = x & y
+
+x	111
+y	101
+	---
+	101
+
+	z = x | y
+
+x	111
+y	101
+	---
+z	111
+
+x = 10
+y = ~x
+	0000 0000
+x	0000 1010
+~x	1111 0101
+
+	x = 10
+	y = 7
+
+	z = x ^ y
+
+x	1010
+y	0111	
+	----
+	1101 
+
+	x = 10
+	y = x << 3
+
+	0000 0000
+x	0000 1010
+y	0101 0000	
+
+	x = 10
+	y = x >> 3
+
+	0000 0000
+x	0000 1010
+y	0000 0001
+	
+
+
+
+7. Assignment 
+	Simple
+		=
+	Shorthand or compound 
+		+=, -=, *=,/=, %=
+		&=, |=, ^=, >>=, <<=
+	
+	x = 10;
+
+	x = x + 10; ==> x+=10
+
+	a = a - b ==> a -=b;
+8. Misc.
+	sizeof() ==> returns size of data type
+	, ==> separator
+	& --> Address operator
+	-> ==> structure pointer member accessing operator
+	. ==> structure member accessing operator
+	*(pointer) --> Indirection operator
+
+
+Keywords
+Data types
+	int, char, float, double, void
+  Modifier
+	long, short, signed, unsigned
+  Qualifier
+	const, volatile
+   sizeof
+Control structures
+	if, else, switch, case, default, break
+	for, while, do, continue, goto
+UDD
+	struct, union, typedef, enum
+Storage classes
+	static, register, extern, auto
+Function
+	return
+
+Data types
+	1. Standard 
+		int, char, float, double, void
+		int x;
+	
+		16 Bits --> 2 bytes
+		32 bits/ 64 Bits --> 4 bytes	
+
+		sizeof(int)
+
+		Size of an integer depends on compiler
+
+		32 bits 
+		int --> 4 bytes --> -2147463648 to 2147463647  --> %d or %i
+
+		unsigned int --> 4 bytes --> 0 to 4,29,49,67,295 --> %u
+		
+		short int --> 2 bytes --> -32768 to 32767  --> %hd or %hi
+		unsigned short int --> 2 bytes --> 0 to 65535 --> %hu
+
+		long long int --> 8 bytes --> -2^63 to (2^63)-1 --> %lld
+		unsigned long long int --> 8 --> 0 to (2^64)-1 --> %llu
+
+		char --> 1 byte
+			range : -128 to 127		%c
+
+		unsigned char --> 1 byte		%c
+			range : 0 to 255
+
+		float	--> 4 bytes			%f
+			32 bits-->6 bits for decimal
+
+		double --> 8 bytes
+			64 bits --> 12 bits for decimal	  %lf
+		long double  --> 12 bytes	
+			96 bits --> 18 bits for decimal	  %Lf
+	
+
+	
+	2. Derived
+		array, pointer, structure, union
+	
+	Data types	Format specifier
+	char			%c
+	unsigned char 		%c
+	int or signed int	%d %i 
+	unsigned int		%u
+	short int
+	signed short int	%hd %hi
+	unsigned short int	%hu
+	long int		
+	signed long int		%ld or %li
+	unsigned long int	%lu
+	long long int		%lld
+	unsigned long long int	%llu	
+	
+	float			%f %g %G %e %E
+	double			%lf 
+	long double		%Lf 
+	char[]			%s
+	Pointer			%p
+	Octal			%o
+	Hexadecimal		%x
+
+	
+	
+
+
+Attendance Link : https://bit.ly/SA-131124
+Trainer Name : Tambi
+Session : FN
+
+
+
+
+
+
